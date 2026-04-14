@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Titre principal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🖥️ JNI Demo "
+            android:textSize="24sp"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Section 1 : Hello World -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 1. Hello World JNI"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#C8ACAC"
+            android:elevation="2dp"
+            android:padding="12dp"
+            android:textColor="#2B4452"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Section 2 : Factoriel -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 2. Calcul de Factoriel"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#C8ACAC"
+            android:elevation="2dp"
+            android:padding="12dp"
+            android:textColor="#2B4452"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Section 3 : Inversion de chaîne -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 3. Inversion de chaîne"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvReverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#C8ACAC"
+            android:elevation="2dp"
+            android:padding="12dp"
+            android:textColor="#294250"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Section 4 : Somme de tableau -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 4. Somme d'un tableau"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#C8ACAC"
+            android:elevation="2dp"
+            android:padding="12dp"
+            android:textColor="#2A4250"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Pied de page -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            android:textSize="12sp"
+            android:textColor="#CCCCCC"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créé par El Hachimi Abdelhamid - Lab 22 JNI"
+            android:textSize="12sp"
+            android:textColor="#9E9E9E"
+            android:gravity="center"
+            android:padding="4dp" />
+
+    </LinearLayout>
+</ScrollView>
