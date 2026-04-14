@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         int fact13 = factorial(13);
         android.util.Log.d("JNI_UI", "fact = " + fact13);
         if (tvFact != null) {
-            tvFact.setText(" Factoriel de 13 = " + fact13);
+            tvFact.setText(" Factoriel de 13  = " + fact13);
         } else {
             android.util.Log.e("JNI_UI", "tvFact est NULL !");
         }
